@@ -1,4 +1,5 @@
-#include "Solution.h"
+#include "../include/Solution.h" 
+
 
 std::string translator(int num) {
     
@@ -9,6 +10,7 @@ std::string translator(int num) {
     const std::string tens[] = {"", "on", "yirmi", "otuz", "kırk", "elli", 
         "altmış", "yetmiş", "seksen", "doksan"};
 
+    
     if (num >= 0 && num <= 9) {
         return units[num];
     }
